@@ -4,6 +4,10 @@ View the tutorial blog posts at <a href='http://startuplandia.io' target='new'>s
 
 ### http://www.startuplandia.io/posts/rails-react-relay-graphql-tutorial-application-setup/
 
-View the live application at <a href='http://toeatapp.startuplandia.io' target='new'>toeatapp.startuplandia.io</a>.
+### http://www.startuplandia.io/posts/rails-react-relay-graphql-tutorial-queries/
+
+### http://www.startuplandia.io/posts/rails-react-relay-graphql-tutorial-mutations/
+
+View the live application at <a href='http://toeatapp.startuplandia.io' target='new'>http://toeatapp.startuplandia.io</a>.
 <br/>
 <img src='http://www.startuplandia.io/assets/images/share/graphql-relay-tutorial-queries.png'/>
