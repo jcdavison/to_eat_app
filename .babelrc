@@ -1,0 +1,5 @@
+{
+  "sourceMaps": "both",
+  "plugins": ["babel-relay-plugin-loader", "transform-class-properties"],
+  "presets": ["react", "es2015"]
+}

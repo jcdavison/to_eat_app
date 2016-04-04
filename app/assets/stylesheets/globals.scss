@@ -1,0 +1,211 @@
+// VARIABLES
+
+$white: white;
+$red: #CF4E42;
+$mauve: rgb(151, 120, 120);
+$blue: hsl(210, 68%, 42%);
+$green: rgb(120, 151, 120);
+$purple: rgba(133, 105, 202, 1);
+$light_green: rgba(120, 151, 120, 0.2);
+$very_light_green: rgba(120, 151, 120, 0.1);
+$light_grey: rgba(121, 121, 151, .5);
+$light_blue: hsla(210, 68%, 42%, .5);
+$very_light_blue: hsla(210, 68%, 42%, .1);
+$pale_blue: hsl(199, 47%, 93%);
+$ultra_light_blue: hsl(214, 47%, 97%);
+$very_light_grey: rgba(121, 121, 151, .3);
+$ultra_light_grey: rgba(121, 121, 151, .05);
+$code_addition: hsl(120, 100%, 96%);
+$code_deletion: hsl(0, 100%, 96%);
+$light_display_grey: hsl(0, 0%, 97%);
+$light_red: rgba(207, 78, 66, .5);
+$very_light_red: rgba(207, 78, 66, .1);
+$link_color: $green;
+$gold: #FEFE00;
+$grey: #2e3939;
+$pic_height: 3.8em;
+$font-family-base: "Cousine-Regular";
+$rounding: 5px;
+
+@mixin pale_blue {
+  color: $pale_blue;
+}
+
+@mixin borders {
+  border: 1px solid $light-grey;
+  border-radius: 3px;
+}
+
+@mixin light-borders {
+  border: 1px solid $very-light-grey;
+}
+
+@mixin light-blue-borders {
+  border: 1px solid $light-blue;
+}
+
+@mixin padded {
+  padding: .6em;
+}
+
+@mixin small-vertical-padding {
+  padding: .5em 0;
+}
+
+.ultra-light-blue-background {
+  background-color: $ultra_light_blue;
+}
+
+@mixin no-right-padding {
+  padding-right: 0 !important;
+}
+
+@mixin no-left-padding {
+  padding-left: 0 !important;
+}
+
+.no-right-padding {
+  @include no-right-padding;
+}
+
+.no-left-padding {
+  @include no-left-padding;
+}
+
+@mixin double-left-padding {
+  padding-left: 2.5em !important;
+}
+
+.double-left-padding {
+  @include double-left-padding;
+}
+
+@mixin no-horizontal-margin {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.no-horizontal-margin {
+  @include no-horizontal-margin;
+}
+
+@mixin no-horizontal-padding {
+  @include no-right-padding;
+  @include no-left-padding;
+}
+
+@mixin half-horizontal-padding {
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+@mixin overflow {
+  overflow: auto;
+}
+
+.overflow {
+  @include overflow;
+}
+
+// GLOBAL BOOTSTRAP OVERRIDES
+
+$brand-primary: $blue;
+$text-color: $grey;
+$link-hover-color: $grey;
+$font-size-small: 20px;
+$modal-lg: 1100px;
+
+button.btn-default.accept, a.btn-default.accept {
+  border-color: $green;
+  background-color: $white;
+  color: $green;
+  &:hover {
+    border-color: $green;
+    background-color: $green;
+    color: $white;
+  }
+}
+
+button.btn-default.disabled {
+  border: 1px solid $grey;
+  color: $grey;
+  background-color: $white;
+  &:hover {
+    border: 1px solid $grey;
+    color: $grey;
+    background-color: $white;
+  }
+}
+
+button.btn-default.summary {
+  border-color: $blue;
+  background-color: $white;
+  color: $blue;
+  &:hover {
+    border-color: $green;
+    background-color: $white;
+    color: $green;
+  }
+}
+
+a.btn-default.review {
+  border-color: $grey;
+  background-color: $white;
+  color: $grey;
+  &:hover {
+    border-color: $blue;
+    background-color: $white;
+    color: $blue;
+  }
+}
+
+button.btn-default.cancel {
+  border-color: $red;
+  background-color: $white;
+  color: $red;
+  &:hover {
+    border-color: $red;
+    background-color: $red;
+    color: $white
+  }
+}
+
+button.btn-default.delete {
+  border-color: $light_red;
+  background-color: $white;
+  color: $light_red;
+  &:hover {
+    border-color: $light_red;
+    background-color: $light_red;
+    color: $white
+  }
+}
+
+button.btn-default {
+  color: $grey;
+  background-color: $white;
+  border-color: $grey;
+  padding: 5px;
+  margin: .5em;
+  font-size: 1.2em;
+}
+
+
+.pointer {
+  cursor: pointer !important;
+}
+
+@mixin standard-form {
+  border: 1px solid $grey;
+  border-radius: 3px;
+}
+
+
+:active:focus, :focus , :visited {
+  outline: none !important;
+}
+
+select {
+  height: 3em;
+}
+
