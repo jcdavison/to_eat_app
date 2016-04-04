@@ -2,7 +2,7 @@ A live tutorial demonstrating how Facebook's React, Relay and GraphQL libraries 
 
 View the tutorial blog posts at <a href='http://startuplandia.io' target='new'>startuplandia.io</a>.
 
-### ![http://www.startuplandia.io/posts/rails-react-relay-graphql-tutorial-application-setup/]http://www.startuplandia.io/posts/rails-react-relay-graphql-tutorial-application-setup/
+### http://www.startuplandia.io/posts/rails-react-relay-graphql-tutorial-application-setup/
 
 View the live application at <a href='http://toeatapp.startuplandia.io' target='new'>toeatapp.startuplandia.io</a>.
 <br/>
