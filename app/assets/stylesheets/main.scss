@@ -292,6 +292,10 @@ section.offer {
   margin: .3em;
 } 
 
+.profile-header {
+  vertical-align: middle;
+}
+
 
 .product-display {
   border: 1px solid $very-light-grey;
@@ -550,4 +554,12 @@ table.patch-display {
   &:hover {
     color: $red;
   }
+}
+
+.no-right-padding {
+  @include no-right-padding;
+}
+
+.no-left-padding {
+  @include no-left-padding;
 }

@@ -23,7 +23,7 @@ $very_light_red: rgba(207, 78, 66, .1);
 $link_color: $green;
 $gold: #FEFE00;
 $grey: #2e3939;
-$pic_height: 3.8em;
+$pic_height: 4.5em;
 $font-family-base: "Cousine-Regular";
 $rounding: 5px;
 
@@ -209,3 +209,10 @@ select {
   height: 3em;
 }
 
+.no-right-padding {
+  @include no-right-padding;
+}
+
+.no-left-padding {
+  @include no-left-padding;
+}
