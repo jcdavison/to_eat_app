@@ -1,5 +1,9 @@
 // FONT
 
+body { padding-top: 50px; }
+
+$navbar-inverse-bg: $light-purple;
+
 div.pointer {
   i.hover-toggle {
     visibility: hidden;
@@ -562,4 +566,23 @@ table.patch-display {
 
 .no-left-padding {
   @include no-left-padding;
+}
+
+.signup-form-container {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+
+  input, button {
+    height: 35px;
+    &.email {
+      width: 220px;
+    }
+    &.subscribe {
+    }
+  }
+
+  form {
+    display: inline;
+  }
 }
