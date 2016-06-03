@@ -2,7 +2,6 @@
 
 body { padding-top: 50px; }
 
-$navbar-inverse-bg: $light-purple;
 
 div.pointer {
   i.hover-toggle {
@@ -579,10 +578,17 @@ table.patch-display {
       width: 220px;
     }
     &.subscribe {
+      color: white;
+      background-color: $red;
     }
   }
 
   form {
     display: inline;
   }
+}
+
+.signup-copy {
+  font-size: 1.2em;
+  color: white;
 }

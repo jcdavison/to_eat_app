@@ -7,6 +7,7 @@ $blue: hsl(210, 68%, 42%);
 $green: rgb(120, 151, 120);
 $purple: #8577d3;
 $light-purple: #cdc6ff;
+$orange: #ffa756;
 $light_green: rgba(120, 151, 120, 0.2);
 $very_light_green: rgba(120, 151, 120, 0.1);
 $light_grey: rgba(121, 121, 151, .5);
@@ -27,6 +28,7 @@ $grey: #2e3939;
 $pic_height: 4.5em;
 $font-family-base: "Cousine-Regular";
 $rounding: 5px;
+$navbar-inverse-bg: $green;
 
 @mixin pale_blue {
   color: $pale_blue;
