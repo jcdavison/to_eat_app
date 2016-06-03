@@ -55,7 +55,7 @@ export default React.createClass({
 
   render() {
     return (
-      <div className={'padded borders top-margined ' + this.state.displayState }>
+      <div className={'padded top-margined ' + this.state.displayState }>
         <div className='blue medium-small'>Submit an Order</div>
 
         <div className='order-create'>

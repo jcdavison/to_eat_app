@@ -26,7 +26,7 @@ export default React.createClass({
 
   render() {
     return (
-      <div className='padded borders top-margined'>
+      <div className='padded top-margined'>
         <div className='blue medium-small'>Create A New Truck</div>
         <div className='truck-create'>
           <form className='form-inline' onSubmit={this.submitSelf}>
