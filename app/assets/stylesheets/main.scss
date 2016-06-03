@@ -290,9 +290,10 @@ section.offer {
 
 .profile {
   height: $pic_height;
-  border-radius: 5px;
-  border: 1px solid $light_grey;
+  border: 10px solid $green;
   margin: .3em;
+
+  border-radius: 1000px;
 } 
 
 .profile-header {
